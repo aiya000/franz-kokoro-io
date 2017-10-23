@@ -1,0 +1,23 @@
+{
+  "name": "kokoro.io",
+  "version": "1.0.0",
+  "description": "kokoro.io",
+  "main": "index.js",
+  "author": "aiya000 <aiya000.develop@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{basic-auth-user}:{basic-auth-password}@kokoro.io/users/sign_in",
+    "serviceName": "kokoro.io",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
