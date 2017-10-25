@@ -11,7 +11,10 @@ A franz plugin for [kokoro.io](https://kokoro.io)
 1. Clone this
 2. Change `{basic-auth-user}` and `{basic-auth-password}` of `"serviceURL"` in package.json for Basic Authentication
     - `"serviceURL": "https://{basic-auth-user}:{basic-auth-password}@kokoro.io/users/sign_in",`
-3. Copy this directory to `$HOME/.config/Franz/Plugins` (Linux)
+3. Copy this directory to the config directory of franz as `kokoro-io`
+    - (Linux) `$HOME/.config/Franz/Plugins/kokoro-io`
+    - (macOS) `$HOME/Library/Application\ Support/Franz/Plugins/kokoro-io`
+    - (Windows) `%APPDATA%\Franz\Plugins\kokoro-io`
 
 
 # :pray: Thanks :pray:
